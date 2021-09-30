@@ -1,2 +1,2 @@
 # Fylo
-Front-End
+Front-End-Mentor-Challenge
