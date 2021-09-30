@@ -1,0 +1,140 @@
+@import url(https://fonts.google.com/specimen/Raleway);
+
+:root{
+    --Dark-Blue /*(intro and email sign up background)*/: hsl(217, 28%, 15%);
+    --Dark-Blue-bg /*(main background)*/: hsl(218, 28%, 13%);
+    --Dark-Blue /*(footer background)*/: hsl(216, 53%, 9%);
+    --Dark-Blue-bbg /*(testimonials background)*/: hsl(219, 30%, 18%);
+    --Cyan /*(inside call-to-action gradient)*/: hsl(176, 68%, 64%);
+    --Blue /*(inside call-to-action gradient)*/: hsl(198, 60%, 50%);
+    --Light-Red /*(error)*/: hsl(0, 100%, 63%);
+}
+
+
+body{
+    font-family:"Raleway", sans-serif;
+    font-size: 14px;
+}
+
+.section-1{
+    background: var(--Dark-Blue-bbg);
+}
+.section-1:nth-of-type(1){
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+p{
+    color: #e6e6e6;
+    font-size: 1em;
+}
+.button,#button{
+    background: var(--Cyan);
+    width: 250px;
+    border-radius: 50px;
+}
+
+.section-2{
+    background:var(--Dark-Blue-bg);
+}
+
+#section-2-div{
+    padding-top: 150px;
+}
+
+.section-2 h4{
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#container-2{
+    margin-top: 100px;
+}
+
+#text-left{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+.arrow{
+    float: right;
+}
+
+.link-arrow{
+    color: #7FFFD4 ;
+    text-decoration: underline;
+}
+
+#columns{
+    background: rgb(40 50 57);
+    margin: 0 20px;
+    margin-bottom: 500px;
+    width: 330px;
+}
+#columns p{
+    margin: 20px 10px 23px 10px;
+}
+
+#container-5{
+    margin-top: 200px;
+}
+
+.rounded-circle{
+    width: 30px;
+    float: left;
+}
+
+footer{
+    background: var(--Dark-Blue);
+}
+
+#first{
+    background-color: var(--Dark-Blue-bbg);
+    width: 900px;
+    position: relative;
+    margin-bottom: -153px;
+    top: -157px;
+
+}
+
+#email{
+    border-radius: 50px;
+}
+
+#final-one{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#icons{
+    margin-right: 10px;
+}
+footer li{
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #introoo{
+        width: 200px;
+    }
+    #productive{
+        width: 300px;
+    }
+    #text-left{
+        margin-left: 0;
+    }
+    #first{
+        width: 100%;
+        margin-bottom: 0;
+        position: unset;
+    }
+    footer li{
+        margin-left: 0%
+    }
+    #columns{
+        margin-bottom: 100px;
+    }
+}
